@@ -1,7 +1,7 @@
 # MGMA-PPIS
 
 ## 1 Description
-	MGMA-PPIS is a novel graph neural network-based method to predict PPI sites by adopting Multi-view Graph embedding and Multi-scale Attention fusion.
+MGMA-PPIS is a novel graph neural network-based method to predict PPI sites by adopting Multi-view Graph embedding and Multi-scale Attention fusion.
 
 ## 2 environment requirements
 	(1) python 3.9
@@ -11,7 +11,8 @@
 	(5) sklearn
  
 ## 3 Datasets
-The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset)
+The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
+
 All the processed pdb files of the protein chains used in this experiment are put in the directory "./Dataset/pdb/".
 
 ## 4 Features
