@@ -11,9 +11,9 @@ MGMA-PPIS is a novel graph neural network-based method to predict PPI sites by a
 	(5) sklearn
  
 ## 3 Datasets
- The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
+	The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
 
- All the processed pdb files of the protein chains used in this experiment are put in the directory "./Dataset/pdb/".
+ 	All the processed pdb files of the protein chains used in this experiment are put in the directory "./Dataset/pdb/".
 
 ## 4 Features
 	The extracted features are in the directory "./Feature". The specific meanings are listed as follows.
