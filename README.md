@@ -23,3 +23,5 @@
  	You can run "train.py" to train the deep model from stratch and use the "test.py" to test the test datasets with the trained model.
 
   
+## License
+This dataset is released under the [CC0 1.0 Universal (CC0 1.0)](LICENSE) Public Domain Dedication license.
