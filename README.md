@@ -12,14 +12,19 @@
  
 ## 3 Datasets
   The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
+  
   All the processed pdb files of the protein chains used in this experiment are put in the directory "./Dataset/pdb/".
 
 ## 4 Features
   The extracted features are in the directory "./Feature". The specific meanings are listed as follows.
   (1) PSSM: the PSSM matrix of the protein chains used in this experiment.
+  
   (2) HMM: the HMM matrix of the protein chains used in this experiment.
+  
   (3) DSSP: the DSSP matrix of the protein chains used in this experiment.
+  
   (4) AF: the atom features of the residues for each protein used in the experiment.
+  
   (5) PPE: the resiude pseudo positions of the protein chains in those datasets.
        
 ## 5 Usage
