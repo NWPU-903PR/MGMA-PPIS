@@ -11,9 +11,10 @@
 	(5) sklearn
  
 ## 3 Datasets
-	The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).[GitHub 官网](https://github.com)
+	The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
 	All the processed pdb files of the protein chains used in this experiment are put in the directory "./Dataset/pdb/".
-https://github.com/AILBC/AGAT-PPIS
+ https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset
+
 ## 4 Features
 	The extracted features are in the directory "./Feature". The specific meanings are listed as follows.
 	(1) PSSM: the PSSM matrix of the protein chains used in this experiment.
