@@ -16,16 +16,20 @@
   (5) sklearn
  
 ## 3 Data File Description
-  The files in "./Dataset" include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
+  The files in `./Dataset` include the datasets used in this experiment are the original datasets from [AGAT-PPIS](https://github.com/AILBC/AGAT-PPIS/tree/master/Dataset).
   
-  All the processed pdb files of the protein chains used in this experiment are put in the directory "./Dataset/pdb/".
+  All the processed pdb files of the protein chains used in this experiment are put in the directory `./Dataset/pdb/`.
   
-  This repository contains the numerical data used to generate Figures 2, 3, S1, and S2 in the manuscript. All data are stored in the "./Dataset" folder. The data for each figure comes from different datasets within this folder, as follows:
+  This repository contains the raw data used to generate Figures 2, 3, S1, and S2 in the manuscript. All the data files are stored in the `./Result` folder.
 
-- **Figure 2**: The sample of chain A in 2yc2 protein extracted from Test_60 dataset, stored in `./Dataset/2yc2A.pkl`.
-- **Figure 3**: The data extracted from Train_335-1 dataset, stored in `./Dataset/Train_335.pkl`.
-- **Figure S1**: The data extracted from Test_60 dataset, stored in `./Dataset/Test_60.pkl`.
-- **Figure S2**: The data extracted from Test_60 dataset, stored in `./Dataset/Test_60.pkl`.
+- **Figure 2 Data**: `./Result/Figure_2.xlsx`  
+  Contains the raw data used for generating Figure 2.
+
+- **Figure 3 Data**: `./Result/Figure_3.xlsx`  
+  Contains the raw data used for generating Figure 3.
+
+- **Figure S1 and S2 Data**: `./Result/Figure_S1_S2`  
+  Contains the raw data used for generating Figure S1 and S2.
 
 
 ![Figure 2](Figures/Figure_2_1.png)
@@ -45,7 +49,7 @@
 **Figure S2** PR curves of MGMA and other two comparation methods on Test_60 dataset
 
 ## 4 Features
-  The extracted features are in the directory "./Feature". The specific meanings are listed as follows.
+  The extracted features are in the directory `./Feature`. The specific meanings are listed as follows.
   
   (1) PSSM: the PSSM matrix of the protein chains used in this experiment.
   
